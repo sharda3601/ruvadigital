@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ruvadigital/static/css/main.639811e3.css",
+    "main.js": "/ruvadigital/static/js/main.55a0aff5.js",
+    "static/js/453.89f587e0.chunk.js": "/ruvadigital/static/js/453.89f587e0.chunk.js",
+    "static/media/Marketing.png": "/ruvadigital/static/media/Marketing.774f3a8bff7b4e2efc76.png",
+    "static/media/slider.png": "/ruvadigital/static/media/slider.b9bb1ba59a162fde51e0.png",
+    "static/media/m1.png": "/ruvadigital/static/media/m1.7da015070a3b89307ae6.png",
+    "static/media/m2.png": "/ruvadigital/static/media/m2.cce034d2f5e213427bc6.png",
+    "static/media/c2 (4).png": "/ruvadigital/static/media/c2 (4).a18a3c2a58a9b0efc3f4.png",
+    "static/media/c2 (3).png": "/ruvadigital/static/media/c2 (3).d36460e7b31e3b3f21a2.png",
+    "static/media/c1.png": "/ruvadigital/static/media/c1.17aafc5a3d8df341d909.png",
+    "static/media/c2 (1).png": "/ruvadigital/static/media/c2 (1).8cc5b31250323e7a905c.png",
+    "static/media/c2 (2).png": "/ruvadigital/static/media/c2 (2).19c8a6d32ec979dffedf.png",
+    "static/media/RuvAa 1.png": "/ruvadigital/static/media/RuvAa 1.024c98098008ccdf8b39.png",
+    "static/media/google.png": "/ruvadigital/static/media/google.5ee03b5089705e14a38b.png",
+    "static/media/Logo.png": "/ruvadigital/static/media/Logo.3266b60bb5db504a845b.png",
+    "static/media/Management.png": "/ruvadigital/static/media/Management.bbaa84cd9d847c0feee0.png",
+    "static/media/Creative.png": "/ruvadigital/static/media/Creative.ca2572aa2b2b4ed719a2.png",
+    "static/media/Marketing (2).png": "/ruvadigital/static/media/Marketing (2).ebd604b1942fefd2e42f.png",
+    "static/media/Research (1).png": "/ruvadigital/static/media/Research (1).0be7c61960aecce4c254.png",
+    "static/media/slick.svg": "/ruvadigital/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ruvadigital/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ruvadigital/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ruvadigital/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ruvadigital/index.html",
+    "main.639811e3.css.map": "/ruvadigital/static/css/main.639811e3.css.map",
+    "main.55a0aff5.js.map": "/ruvadigital/static/js/main.55a0aff5.js.map",
+    "453.89f587e0.chunk.js.map": "/ruvadigital/static/js/453.89f587e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.639811e3.css",
+    "static/js/main.55a0aff5.js"
+  ]
+}
