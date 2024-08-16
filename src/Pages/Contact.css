@@ -1,0 +1,299 @@
+.ser-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.logo1 {
+  width: 100px;
+  height: auto;
+  color: aliceblue;
+}
+
+.contact-info {
+  color: aliceblue;
+}
+
+.blue-background {
+  background-color: rgb(26, 26, 96);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.header-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+.start-button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.contact-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ser-text {
+  color: rgba(35, 35, 99, 0.792);
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.ser-subtext {
+  color: black;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.ser-fainttext {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1rem;
+  margin-top: -5px;
+}
+
+.question-container {
+  margin-top: 20px;
+}
+
+.question-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.question {
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.question-text {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.name-input,
+.email-input,
+.contact-input,
+.project-description,
+.hear-about-input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  padding: 5px 0;
+  width: 100%;
+  outline: none;
+}
+
+.name-input::placeholder,
+.email-input::placeholder,
+.contact-input::placeholder,
+.project-description::placeholder,
+.hear-about-input::placeholder {
+  color: grey;
+}
+
+.project-section {
+  margin-top: 20px;
+}
+
+.project-header {
+  font-size: 1rem;
+}
+
+.project-subtext {
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.project-description {
+  width: 100%;
+  height: 100px;
+  border: 1px solid grey;
+  padding: 5px;
+  resize: vertical;
+}
+
+.hear-about-input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1rem;
+  padding: 5px 0;
+  width: 100%;
+  outline: none;
+}
+
+.submit-button {
+  background-color: rgb(236, 66, 47);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #ff8c00;
+}
+
+.button-container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .question-row {
+      flex-direction: column;
+  }
+
+  .question {
+      width: 100%;
+  }
+
+  .ser-text {
+      font-size: 2rem;
+  }
+
+  .header-text {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .ser-text {
+      font-size: 1.5rem;
+  }
+
+  .ser-subtext,
+  .ser-fainttext,
+  .question-text,
+  .name-input,
+  .email-input,
+  .contact-input,
+  .project-description,
+  .project-header,
+  .project-subtext,
+  .hear-about-input {
+      font-size: 0.9rem;
+  }
+
+  .header-text {
+      font-size: 1rem;
+  }
+
+  .logo1 {
+      width: 70px;
+  }
+
+  .blue-background {
+      padding: 10px;
+  }
+
+  .start-button {
+      padding: 5px 10px;
+  }
+
+  .footer {
+    background-color: purple;
+    color: #fff;
+    padding: 20px 20px;
+
+  }
+  
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .footer-links h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .logofooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* .footer-links div {
+      margin-bottom: 10px;
+    } */
+  
+    .footer-links ul {
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-content {
+      padding: 20px;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-links div {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .footer-links ul {
+      text-align: center;
+    }
+  }
+
+  
+}

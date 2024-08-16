@@ -1,0 +1,24 @@
+.color-bg{
+    background-color: rgb(50, 29, 169);
+    padding-bottom: 3cm;
+    padding-top: 2cm;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+i{
+    font-size: 18px;
+    margin-right: 5px;
+    padding:0 4px;
+    border-radius: 5px;
+}
+.bi-facebook, .bi-linkedin{
+    background-color: rgba(5, 54, 218, 0.897);
+}
+.bi-instagram{
+    background:linear-gradient(to right top, rgb(201, 113, 91), rgba(200, 23, 40));
+}
+.bi-youtube{
+    background-color: rgb(204,20, 10);
+}

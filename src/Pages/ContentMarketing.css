@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  .content-section {
+    background-color: #b8057a;
+    color: white;
+    padding: 30px 20px;
+    align-items: start;
+    text-align: start;
+  }
+  
+  .service-tags span {
+    display: inline-block;
+    background-color: #f7f1ec;
+    border: #310ca9 2px solid ; 
+    color: #09031c;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    
+  }
+  .service-tags span:hover{
+    color: white;
+    background-color: rgb(34, 34, 147);
+  }

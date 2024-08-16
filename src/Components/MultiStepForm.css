@@ -1,0 +1,47 @@
+/* MultiStepForm.css */
+.step {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: red;
+  }
+  
+  .service-btn,
+  .continue-btn,
+  .back-btn,
+  .send-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid red;
+    background: white;
+    color: red;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .continue-btn,
+  .back-btn,
+  .send-btn {
+    background: red;
+    color: white;
+  }
+  
+  textarea,
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,13 @@
+.btn1{
+    margin-right: 120px;
+}
+a.active{
+    color: rgb(194, 80, 80)!important;
+}
+a:hover{
+    color: rgb(194, 80, 80)!important;
+}
+.btn:hover{
+    color:  rgb(194, 80, 80)!important;
+    background-color: white;
+}

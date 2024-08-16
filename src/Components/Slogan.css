@@ -1,0 +1,80 @@
+.slogan {
+  text-align: center;
+  padding: 50px 20px;
+  background: #10999f;
+  margin: 20px auto; /* Center the section and add margin on small screens */
+  max-width: 1200px; /* Limit the width for larger screens */
+  height: auto; /* Adjust height to be flexible */
+  border-radius: 10px; /* Add rounded corners for a nicer look */
+}
+
+.slogan h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: white; /* Ensure text color is visible */
+}
+
+.slogan p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: white; /* Ensure text color is visible */
+}
+
+.watch-video-btn {
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  margin-left: 115px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.watch-video-btn:hover {
+  background-color: #e04e4e;
+}
+
+@media (max-width: 1024px) {
+  .slogan {
+    padding: 40px 20px;
+    margin: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .slogan h1 {
+    font-size: 42px; /* Reduce font size for smaller screens */
+  }
+
+  .slogan p {
+    font-size: 16px; /* Reduce font size for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .slogan {
+    padding: 30px 20px;
+    margin: 20px; /* Further adjust margin for small screens */
+  }
+
+  .slogan h1 {
+    font-size: 36px; /* Further reduce font size */
+  }
+
+  .slogan p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slogan {
+    padding: 20px 10px;
+    margin: 10px; /* Adjust margin for extra small screens */
+  }
+
+  .slogan h1 {
+    font-size: 28px; /* Further reduce font size */
+  }
+
+  .slogan p {
+    font-size: 14px; /* Reduce font size */
+  }
+}

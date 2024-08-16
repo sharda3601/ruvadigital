@@ -1,0 +1,96 @@
+.main-container {
+  padding: 20px;
+  transform: rotate(355deg);
+  width: 1500px;
+  margin-top: 40px;
+}
+
+.square {
+  border: 2px solid #000;
+}
+
+.jayesh-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: max-content;
+}
+
+.main {
+  border: 2px solid #000;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/slider.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 250px;
+  height: 200px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideRightToLeft 15s linear infinite;
+  transition: transform 2s;
+  position: relative;
+}
+
+.container.enlarged {
+  width: 300px;
+  height: 300px;
+  z-index: 1; /* Ensure enlarged image is on top */
+  margin-top: -20px;
+}
+
+.container-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  transition: transform 0.5s ease; /* Smooth transition for rotation */
+}
+
+.container.enlarged .container-image {
+  transform: rotate(90deg); /* Rotate image by 90 degrees in enlarged state */
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(650%);
+  }
+  100% {
+    transform: translateX(-650%);
+  }
+}
+
+.paused .container {
+  animation-play-state: paused !important;
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: 300px;
+    width: 100%;
+  }
+  .main-container {
+    margin-top: -45px;
+  }
+  .container {
+    width: 200px;
+    height: 200px;
+  }
+  .container.enlarged {
+    width: 230px;
+    height: 230px;
+
+    margin-top: 0px;
+  }
+}

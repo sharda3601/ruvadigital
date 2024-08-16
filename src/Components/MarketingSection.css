@@ -1,0 +1,146 @@
+.marketing-section {
+  max-width: 1200px;
+  margin: -153px auto 0px auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content-item .image-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.content-item img {
+  width: 100%;
+  height: 279px;
+  border-radius: 10px;
+}
+
+.content-item .text-wrapper {
+  max-width: 600px;
+}
+
+.content-item h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.content-item p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.content-item button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 21px;
+}
+
+.content-item button:hover {
+  background-color: #ff4b4b;
+}
+
+@media (min-width: 768px) {
+  .section-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .content-item {
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 85px;
+  }
+
+  .content-item:nth-child(2) {
+    flex-direction: row-reverse;
+    text-align: left;
+  }
+
+  .content-item .image-wrapper {
+    flex: 1;
+  }
+
+  .content-item .text-wrapper {
+    flex: 2;
+    margin-right: 111px;
+    padding: 0px 30px;
+  }
+
+  .content-item .text-wrapper1 {
+    flex: 2;
+    margin-left: 90px;
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 786px) {
+  .marketing-section {
+    max-width: 1200px;
+    margin: 77px auto 0px auto;
+  }
+
+  .section-header {
+    text-align: center;
+    margin: 20px 40px;
+  }
+
+  .content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+  }
+
+  .content-item img {
+    width: 100%;
+    height: 279px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .content-item button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 21px;
+    margin-bottom: 20px;
+  }
+}

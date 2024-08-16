@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  /* .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .intro-section {
+    background-color:#fff;
+    padding: 50px 20px;
+    margin: 50px ;
+  }
+  
+  .intro-section img {
+    width: 100%;
+    margin-top: 20px;
+   
+  } */
+  
+  .content-section {
+    background-color: #b8057a;
+    color: white;
+    padding: 30px 20px;
+    align-items: start;
+    text-align: start;
+  }
+  
+  .service-tags span {
+    display: inline-block;
+    background-color: #f7f1ec;
+    border: #280b87 2px solid ; 
+    color: #09031c;
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    
+  }
+  .service-tags span:hover{
+    color: white;
+    background-color: rgb(34, 34, 147);
+  }
+  
+  /* .quote-section {
+    background-color: rgb(242, 58, 175);
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .quote-section button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    border: black 2px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* .footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+  } */
+  
+  /* .footer-content h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    margin: 5px 0;
+  } */
+  
+  /* .social-media {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: purple;
+  }
+  
+  .social-media a img {
+    width: 30px;
+    margin: 0 10px;
+  }  */
+
+
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .intro-section img {
+      width: 80%;
+    }
+  
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+/* ExactShapes.css */
+/* 
+.shape-container {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.shape {
+  position: absolute;
+}
+
+.circle-yellow {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FFD700;
+  top: 98px;
+  left: -39px;
+}
+
+.circled-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url(../images/c1.png) no-repeat center center;
+  background-size: cover;
+  top: 130px;
+  left: -7px;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.circle-red {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #FF4500;
+  top: 26px;
+  left: 70px;
+}
+
+.square-blue {
+  width: 50px;
+  height: 50px;
+  background-color: #0000FF;
+  top: 70px;
+  left: 40px;
+}
+
+.triangle-pink {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #FF1493;
+  top: 114px;
+  left: 56px;
+}
+
+.triangle-green {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #32CD32;
+  top: 76px;
+  left: 79px;
+}
+
+.star-yellow {
+  position: relative;
+  display: inline-block;
+  color: #FFD700;
+  width: 28px;
+  height: 38px;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid #FFD700;
+  border-left: 10px solid transparent;
+  transform: rotate(95deg);
+  top: 46px;
+  left: 35px;
+  background-color: white;
+}
+
+.star-yellow:before {
+  border-bottom: 8px solid #FFD700;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -4px;
+  left: -7px;
+  display: block;
+  content: '';
+  transform: rotate(-35deg);
+}
+
+.star-yellow:after {
+  position: absolute;
+  display: inline-block;
+  top: 0px;
+  left: -11px;
+  width: 0;
+  height: 0;
+  border-right: 10px solid transparent;
+  border-bottom: 7px solid #FFD700;
+  border-left: 10px solid transparent;
+  transform: rotate(-70deg);
+  content: '';
+}
+
+.line-purple {
+  width: 150px;
+  height: 5px;
+  background-color: #800080;
+  top: 70px;
+  left: 25px;
+  transform: rotate(15deg);
+} */

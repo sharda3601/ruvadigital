@@ -1,0 +1,31 @@
+.faq-section {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    background-color: #001f5a;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    display: none;
+  }
+  
+  .faq-question:focus + .faq-answer {
+    display: block;
+  }
+  
